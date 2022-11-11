@@ -1,0 +1,68 @@
+.homy{
+    padding: 150px 20px 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.descript{
+    max-width: 550px;
+}
+.heading{
+    font-size: 25px;
+    color: rgb(255, 0, 98);
+    font-weight: 700;
+}
+.firstParagraph{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.paragraph{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.formSearch{
+    background-color: white;
+    display: flex;
+    justify-content: justify;
+    align-items: center;
+    width: fit-content;
+    margin: 30px 0;
+    padding: 1px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px lightgray, -2px -2px 3px lightgrey;
+
+}
+.formSearch input{
+    outline: none;
+    border: none;
+    font-size: 20px;
+    background: none;
+}
+.formSearch button{
+    border: none;
+    outline: none;
+    background-color: rgb(255, 0, 98);
+    padding: 15px 30px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+
+}
+.logos{
+    font-size: 30px;
+    color: rgb(255, 0, 98);
+}
+img{
+    width: relative;
+    height: 500px;
+    border-radius: 50%;
+   
+   
+    
+}
+@media (max-width:768px) {
+    .homy{
+        display: block;
+    }
+}

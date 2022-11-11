@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color:white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    
+}
+.logo{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.logo span{
+    color: rgb(255, 0, 98);
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links li{
+    margin: 0 15px;
+    list-style: none;
+}
+.links li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight:500;
+    color:black;
+}
+.links li a:hover{
+    color: black;
+    transition: .5s;
+}
+.cartGet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cartGet li{
+    list-style: none;
+    margin: 0 10px;
+}
+.cart{
+    color:black;
+    font-size: 40px;
+    background-color: lightgray;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+.get{
+    background-color: black;
+    padding: 7px 5px;
+    border-radius: 5px;
+}
+.get a{
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+    
+}
+.menu .open, .menu .close{
+    font-size: 40px;
+}
+.menu{
+    display: none;
+}
+
+@media (max-width:768px) {
+    .links{
+        display: block;
+        position: fixed;
+        left: 0;
+        transition: 1s;
+        top: -20px;
+        height: 100vh;
+        width: 80%;
+        background-color: black;
+        /*background-color: rgba(0, 0, 0, 0.7);*/
+        padding-top: 100px;
+    }
+    .links li{
+        margin: 20px 20px 20px 50px;
+    }
+    .links li a{
+        font-size: 30px;
+        font-weight: 550;
+        color: lightgray;
+    }
+    .links li a:hover{
+        color: white;
+        transition: .5s;
+    }
+    .menu{
+        display: block;
+    }
+    
+}
