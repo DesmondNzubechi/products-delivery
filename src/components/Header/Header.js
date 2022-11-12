@@ -37,7 +37,7 @@ const Header = () => {
        
            <div> <h1 className="logo"><span>Del</span>ivery</h1></div>
             <div>
-            <ul className="links" style={{right:viewMenu}}>
+            <ul className="links" style={{left:viewMenu}}>
                 <li><a href="">Home</a></li>
                 <li><a href="">Menu</a></li>
                 <li><a href="">Services</a></li>

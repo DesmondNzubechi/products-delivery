@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0 ;
+}
 header{
     display: flex;
     justify-content: space-around;
@@ -124,7 +128,7 @@ header{
     }
     .menu{
         display: block;
-        margin-righ: 50px;
+        margin-right: 50px;
     }
     .addToCart{
         padding: 5px;

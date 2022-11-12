@@ -23,12 +23,13 @@
 }
 .formSearch{
     background-color: white;
-    display: flex;
-    justify-content: justify;
+   display: flex;
+    justify-content: space-around;
     align-items: center;
     width: fit-content;
-    margin: 30px 10px;
-    padding: 1px;
+   max-width: 400px;
+    margin: 30px 5px;
+   padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 2px 3px lightgray, -2px -2px 3px lightgrey;
 
@@ -38,11 +39,13 @@
     border: none;
     font-size: 15px;
     background: none;
+    max-width: 200px;
     
 }
 .formSearch button{
     border: none;
     outline: none;
+    
     background-color: rgb(255, 0, 98);
     padding: 15px;
     font-size: 15px;
@@ -51,7 +54,7 @@
 
 }
 .logos{
-    font-size: 20px;
+    font-size: 30px;
     color: rgb(255, 0, 98);
 }
 img{
@@ -78,4 +81,16 @@ img{
         font-size: 30px;
         font-weight: 10000;
     }
+    .formSearch{
+        background-color: white;
+       display: flex;
+        justify-content: space-around;
+        align-items: center;
+       max-width: 300px;
+        margin: 30px 5px;
+       padding: 5px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 3px lightgray, -2px -2px 3px lightgrey;
+    
+}
 }
