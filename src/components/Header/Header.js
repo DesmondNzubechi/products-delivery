@@ -39,9 +39,9 @@ const Header = () => {
             <div>
             <ul className="links" style={{left:viewMenu}}>
                 <li><a href="">Home</a></li>
-                <li><a href="">Menu</a></li>
+                <li><a href="">About</a></li>
                 <li><a href="">Services</a></li>
-                <li><a href="">Discover</a></li>
+                <li><a href="">Menu</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
             </div>

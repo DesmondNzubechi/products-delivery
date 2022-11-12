@@ -21,7 +21,7 @@ const Home = () => {
                 </form>
             </div>
             <div className="imgDiv">
-                <img src={delivered} alt={deliveryGuy} /> 
+            <img src={delivered} alt={deliveryGuy} /> 
             </div>
         </div>
         </React.Fragment>
