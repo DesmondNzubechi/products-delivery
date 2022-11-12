@@ -1,0 +1,42 @@
+.about{
+   background-color: rgb(247, 216, 236);
+   margin: 80px 0 50px 0;
+   border-radius: 50px;
+}
+.abtDescription{
+padding: 20px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.abt h1{
+    font-weight: 1000 !important;
+    text-shadow: 3px 3px -5px lavenderblush, -3px -3px 0 lightgray;
+}
+.abt h3{
+   color: gray;
+    margin-bottom: 20px;
+}
+.abt p{
+    font-size: 18px;
+    margin: 20px 0;
+    max-width: 500px;
+}
+.abtImg{
+    display: flex;
+    justify-content: center;
+}
+.abtImg img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+@media (max-width:768px) {
+    .abtDescription{
+        display: block;
+        justify-content: center;
+    }
+
+    
+}
