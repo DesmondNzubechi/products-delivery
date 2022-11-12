@@ -7,6 +7,7 @@ import { HiLocationMarker } from 'react-icons/hi';
 const Home = () => {
     const deliveryGuy = 'Delivered Product';
     return (
+        <React.Fragment>
         <div className="homy">
             <div className="descript">
             <h1 className="heading">Super fast Delivery Service</h1>
@@ -23,6 +24,7 @@ const Home = () => {
                 <img src={delivered} alt={deliveryGuy} /> 
             </div>
         </div>
+        </React.Fragment>
     )
 };
 

@@ -51,11 +51,33 @@ header{
 .cart{
     color:black;
     font-size: 40px;
-    background-color: lightgray;
-    padding: 5px 10px;
-    border-radius: 5px;
+    margin: 0 2px;
+    
 
 }
+.addToCart{
+    background-color: lightgray;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.addToCart:hover{
+    transition: .5s;
+    opacity: 70%;
+}
+.addToCart .num{
+    font-size: 30px;
+    font-weight: 900;
+}
+.addToCart span{
+    font-size: 20px;
+    margin: 0 5px;
+    font-weight: bolder;
+}
+
 .get{
     background-color: black;
     padding: 7px 5px;
@@ -82,7 +104,7 @@ header{
         transition: 1s;
         top: -20px;
         height: 100vh;
-        width: 80%;
+        width: 70%;
         background-color: black;
         /*background-color: rgba(0, 0, 0, 0.7);*/
         padding-top: 100px;

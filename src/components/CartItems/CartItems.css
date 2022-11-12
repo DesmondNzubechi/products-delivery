@@ -1,0 +1,40 @@
+.closeIc{
+    position: absolute;
+    top: 0;
+    ndex: 20;
+    right: 0;
+    background: rgb(255, 0, 98);
+}
+.closeIc:hover{
+    opacity: 70%;
+    transition: .5s;
+}
+.proceed{
+  
+        margin: 10px;
+         background:  black;
+         border: none;
+         padding: 5px;
+         font-size: 20px;
+         border-radius: 4px;
+         color: lightgray;
+}
+.proceed:hover{
+    color: black;
+    background-color: rgb(255, 0, 98);
+    transition: .5s;
+}
+.close{
+    margin: 10px;
+     background:  gray;
+     border: none;
+     padding: 5px 10px;
+     font-size: 20px;
+     border-radius: 4px;
+     color: black;
+ }
+ .close:hover{
+    color: white;
+    background: black;
+    transition: .5s;
+ }

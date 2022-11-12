@@ -2,14 +2,25 @@ import React from "react";
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { HiXMark } from 'react-icons/hi2';
+import Cart from "../CartItems/CartItems";
 import './Header.css';
-import { useState } from "react";
+import { useState, Fragment} from "react";
 
 const Header = () => {
 
     const [closeView, setCloseView] = useState(false);
     const [openView, setOpenView] = useState(true);
     const [viewMenu, setViewMenu] = useState(-1000);
+    const [viewCart, setViewCart] = useState(false);
+    
+    //Showing Cart
+    const showCart = () => {
+        setViewCart(true);
+    }
+    //closing cart
+    const closeCart = () => {
+        setViewCart(false);
+    }
     const showClose = () => {
         setCloseView(true);
         setOpenView(false);
@@ -21,6 +32,7 @@ const Header = () => {
        setViewMenu(-1000)
     }
     return (
+        <Fragment>
         <header>
             <h1 className="logo"><span>Del</span>ivery</h1>
             <ul className="links" style={{left:viewMenu}}>
@@ -32,8 +44,8 @@ const Header = () => {
             </ul>
 
         <ul className="cartGet">
-            <li className="addToCart"><AiOutlineShoppingCart className="cart" /></li>
-            <li className="get"><a href=""> Get The App</a></li>
+            <li className="addToCart" onClick={showCart}><AiOutlineShoppingCart className="cart"  /> <span>Cart</span> <span className="num">0</span></li>
+           
         </ul>
 
         <div className="menu">
@@ -41,6 +53,9 @@ const Header = () => {
           { closeView &&  <HiXMark className="close" onClick={showOpen}/>}
         </div>
         </header>
+
+        {viewCart && <Cart  close={closeCart} />}
+        </Fragment>
     )
 }
 
