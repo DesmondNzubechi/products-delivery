@@ -10,6 +10,7 @@ header{
     left: 0;
     right: 0;
     width: 100%;
+    padding: 10px 40px 10px 10px;
     
 }
 .logo{
@@ -90,7 +91,7 @@ header{
     
 }
 .menu .open, .menu .close{
-    font-size: 40px;
+    font-size: 30px;
 }
 .menu{
     display: none;
@@ -124,5 +125,13 @@ header{
     .menu{
         display: block;
     }
-    
+    .addToCart{
+        padding: 5px;
+    }
+    .cart{
+        font-size: 30px;
+    }
+    .menu li{
+        font-size: 30px;
+    }
 }

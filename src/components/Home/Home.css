@@ -26,8 +26,8 @@
     display: flex;
     justify-content: justify;
     align-items: center;
-    width: fit-content;
-    margin: 30px 0;
+    width: 100%;
+    margin: 30px 10px;
     padding: 1px;
     border-radius: 5px;
     box-shadow: 2px 2px 3px lightgray, -2px -2px 3px lightgrey;
@@ -38,6 +38,7 @@
     border: none;
     font-size: 20px;
     background: none;
+    
 }
 .formSearch button{
     border: none;
@@ -64,5 +65,19 @@ img{
 @media (max-width:768px) {
     .homy{
         display: block;
+
+    }
+    img{
+        width: 100%;
+        height: relative;
+        border-radius: 50%;
+        
+    }
+    .heading{
+        font-size: 20px;
+    }
+    .firstParagraph{
+        font-size: 30px;
+        font-weight: 10000;
     }
 }
