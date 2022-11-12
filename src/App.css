@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-div{
+*{
     
     font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
 }

@@ -34,11 +34,9 @@ const Header = () => {
     return (
         <Fragment>
         <header>
-        <div className="menu">
-        { openView && <AiOutlineMenu className="open" onClick={showClose} />}
-          { closeView &&  <HiXMark className="close" onClick={showOpen}/>}
-        </div>
-            <h1 className="logo"><span>Del</span>ivery</h1>
+       
+           <div> <h1 className="logo"><span>Del</span>ivery</h1></div>
+            <div>
             <ul className="links" style={{right:viewMenu}}>
                 <li><a href="">Home</a></li>
                 <li><a href="">Menu</a></li>
@@ -46,13 +44,17 @@ const Header = () => {
                 <li><a href="">Discover</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
-
-        <ul className="cartGet">
-            <li className="addToCart" onClick={showCart}><AiOutlineShoppingCart className="cart"  /> <span>Cart</span> <span className="num">0</span></li>
+            </div>
+<div>
+<ul className="cartGet">
+            <li className="addToCart" onClick={showCart}><AiOutlineShoppingCart className="cart"  />  <span className="num">0</span></li>
            
         </ul>
-
-        
+</div>
+        <div className="menu">
+        { openView && <AiOutlineMenu className="open" onClick={showClose} />}
+          { closeView &&  <HiXMark className="close" onClick={showOpen}/>}
+        </div>
         </header>
 
         {viewCart && <Cart  close={closeCart} />}
