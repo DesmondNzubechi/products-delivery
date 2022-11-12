@@ -34,8 +34,12 @@ const Header = () => {
     return (
         <Fragment>
         <header>
+        <div className="menu">
+        { openView && <AiOutlineMenu className="open" onClick={showClose} />}
+          { closeView &&  <HiXMark className="close" onClick={showOpen}/>}
+        </div>
             <h1 className="logo"><span>Del</span>ivery</h1>
-            <ul className="links" style={{left:viewMenu}}>
+            <ul className="links" style={{right:viewMenu}}>
                 <li><a href="">Home</a></li>
                 <li><a href="">Menu</a></li>
                 <li><a href="">Services</a></li>
@@ -48,10 +52,7 @@ const Header = () => {
            
         </ul>
 
-        <div className="menu">
-        { openView && <AiOutlineMenu className="open" onClick={showClose} />}
-          { closeView &&  <HiXMark className="close" onClick={showOpen}/>}
-        </div>
+        
         </header>
 
         {viewCart && <Cart  close={closeCart} />}

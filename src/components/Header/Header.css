@@ -101,7 +101,7 @@ header{
     .links{
         display: block;
         position: fixed;
-        left: 0;
+        right: 0;
         transition: 1s;
         top: -20px;
         height: 100vh;

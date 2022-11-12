@@ -22,12 +22,12 @@ const Cart = (props) => {
         background: ' white',
         borderRadius: '10px',
         position: 'relative',
-        margin: '100px 50px',
+        margin: '50px 10px',
         overflowY: 'auto',
         overflowX: 'hidden',
         width: '100%',
         height: '100%',
-        maxHeight: '60vh',
+        maxHeight: '80vh',
         maxWidth: '800px',
        
 
@@ -61,14 +61,14 @@ const Cart = (props) => {
                 alignItems: 'center',
 
             }}>
-                <li style={{
+                <li className="total" style={{
                     listStyle: 'none',
-                    fontSize: '30px',
+                    fontSize: '20px',
                     fontWeight: '600',
                 }}>Total Price</li>
                 <li style={{
                     listStyle: 'none',
-                    fontSize: '30px',
+                    fontSize: '20px',
                     fontWeight: '900',
                 }}><span style={{
                     color: 'rgb(255, 0, 98)',
@@ -78,7 +78,7 @@ const Cart = (props) => {
             <div style={{
                   float: "right",
             }}>
-                <button className="close" onClick={props.close}>Close</button>
+            
             <button className="proceed">Proceed To Checkout</button>
             </div>
             
