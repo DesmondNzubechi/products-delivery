@@ -15,10 +15,11 @@ const Cart = (props) => {
     height: '100vh',
     justifyContent: 'center',
     transition: '1s',
+    overflowY: 'hidden',
 }}>
    
     <div style={{
-        padding: '20px',
+        padding: '10px',
         background: ' white',
         borderRadius: '10px',
         position: 'relative',
@@ -39,9 +40,10 @@ const Cart = (props) => {
        }}>
         <h1 style={{
            padding: '10px',
-           fontWeight: '500',
+           fontWeight: '700',
            textAlign: 'center',
           borderBottom: '2px solid gray',
+         fontSize: '20px',
         }}>Product In The Cart</h1>
          <h1 >< HiXMark className="closeIc" onClick={props.close}/></h1>
         </div> 

@@ -8,7 +8,7 @@ header{
     justify-content: space-around;
     align-items: center;
     font-family: 'Poppins', sans-serif;
-    background-color:white;
+   background-color: rgb(247, 216, 236);
     position: fixed;
     top: 0;
     left: 0;
@@ -54,14 +54,14 @@ header{
     margin: 0 10px;
 }
 .cart{
-    color:black;
+    color:rgb(253, 246, 246);
     font-size: 40px;
     margin: 0 2px;
     
 
 }
 .addToCart{
-    background-color: lightgray;
+    background-color: rgb(255, 0, 98);
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
     display: flex;
@@ -76,6 +76,7 @@ header{
 .addToCart .num{
     font-size: 30px;
     font-weight: 900;
+    color:rgb(253, 246, 246);
 }
 .addToCart span{
     font-size: 20px;

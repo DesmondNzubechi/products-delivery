@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import  delivered  from '../images/delivered.png';
+import  delivered  from '../images/deliveryguy.webp';
 import { HiLocationMarker } from 'react-icons/hi';
 
 
