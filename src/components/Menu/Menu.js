@@ -17,7 +17,7 @@ const Menu = () => {
             <div className="ourMenuDisplay">
                 <div>
                 <div>
-                    <img src={phone} alt='Phone' />
+                    <img src={phone} alt='Phone' className="phone" />
                   
                     <h2>Smart Phone</h2>
                    

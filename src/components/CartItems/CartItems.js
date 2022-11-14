@@ -16,6 +16,8 @@ const Cart = (props) => {
     justifyContent: 'center',
     transition: '1s',
     overflowY: 'hidden',
+    zIndex: '1500',
+
 }}>
    
     <div style={{
