@@ -36,7 +36,7 @@ const Header = () => {
         <header>
        
            <div> <h1 className="logo"><span>Del</span>ivery</h1></div>
-            <div>
+            <div> 
             <ul className="links" style={{left:viewMenu}}>
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>

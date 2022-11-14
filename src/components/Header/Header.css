@@ -15,7 +15,7 @@ header{
     right: 0;
     width: 100%;
     padding: 10px 70px 10px 10px;
-    
+    z-index: 900 !important;
 }
 .logo{
     text-transform: uppercase;
